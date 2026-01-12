@@ -1,0 +1,13 @@
+from libcity.config.ffs_downstream.chengdu_small_4_gpsview_in_tte import config as chengdu_small_4_gpsview_in_tte
+from libcity.config.ffs_downstream.chengdu_small_4_gpsview_in_tte_aug import config as chengdu_small_4_gpsview_in_tte_aug
+from libcity.config.ffs_downstream.chengdu_small_4_gpsview_in_tte_aug_20w import config as chengdu_small_4_gpsview_in_tte_aug_20w
+from libcity.config.ffs_downstream.dp_gps import config as dp_gps
+from libcity.config.ffs_downstream.dp_road import config as dp_road
+from libcity.config.ffs_downstream.tte_nopretrain import config as tte_nopretrain
+from libcity.config.ffs_downstream.tte_crossattn import config as tte_crossattn
+from libcity.config.ffs_downstream.msts import config as msts
+from libcity.config.ffs_downstream.dp_span_road import config as dp_span_road
+from libcity.config.ffs_downstream.dp_gps_origin import config as dp_gps_origin
+from libcity.config.ffs_downstream.xian_tte import config as xian_tte
+from libcity.config.ffs_downstream.dp_span_road_xian import config as dp_span_road_xian
+from libcity.config.ffs_downstream.dp_span_road_para_analysis import config as dp_span_road_para_analysis

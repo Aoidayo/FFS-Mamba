@@ -1,0 +1,20 @@
+*.tar
+docs
+libcity/cache
+raw_data
+*.log
+*.tar
+.idea
+**/__pycache__/
+**/.idea/
+**/cache/
+# **/log/
+*.npz
+*.npy
+*.pt
+*.csv
+*.pkl
+*.geo
+*.rel
+*.pt
+*.svg
