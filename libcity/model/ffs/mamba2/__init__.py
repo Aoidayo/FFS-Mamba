@@ -1,1 +1,0 @@
-from libcity.model.ffs.mamba2.mamba2 import TrajMixerModel2
