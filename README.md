@@ -14,7 +14,6 @@ mamba-ssm 2.2.6
 ## Pretrain
 
 ```bash
-# 预训练
 python ./ffs_pipeline_mlm_contra.py
 ```
 
