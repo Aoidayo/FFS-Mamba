@@ -2,6 +2,9 @@
 
 The PyTorch implementation of my paper "Selective Fusion for Self-supervised Trajectory Representation Learning with Dual-View Mamba".
 
+## Note 
+The repository is currently being organized and will be gradually refined after the paper is submitted.
+
 ## Requirements
 ```bash
 pytorch 2.5.1+cu124
@@ -21,37 +24,23 @@ python ./ffs_pipeline_mlm_contra.py
 
 ```bash
 # TTE
-# -- 整测 TERMba+SAGMba+CrossAttn
-python ./ffs_pipeline_tte_crossattn.py
-```
-
-单测Stall GPS Mamba
-Config：
-
-- xian_tte
-- chengdu_small_4_gpsview_in_tte_aug_20w
-
-```bash
-# -- 单测 Stall GPS Mamba
+python ./ffs_pipeline_tte_crossattn.py 
+# or
 python ./ffs_pipeline_tte_aug.py
 ```
 
 
-### 2 Next Location Prediction (NLP)
+### 2 Destionation Prediction
+
+Mask 10% tail GPS and corresponding road, use the model to predict the destination road ID.
 
 ```bash
-# Next Loc
-# -- ⚠️ 提前需要摘取GpsRoadList
-# -- Next Gps, 
-python ./ffs_pipeline_dp_gps_origin.py
-# -- Next Road
 python ./ffs_pipeline_dp.py
 ```
 
 ### 3 Most Simliar Trajectory Search (MSTS)
 
 ```bash
-# MSTS
 python ./ffs_pipeline_msts.py
 ```
 
