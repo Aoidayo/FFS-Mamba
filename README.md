@@ -1,6 +1,6 @@
 # FFS-Mamba
 
-The PyTorch implementation of my paper "Selective Fusion for Self-supervised Trajectory Representation Learning with Dual-View Mamba".
+The PyTorch implementation of my paper Selective Fusion for Self-supervised Trajectory Representation Learning with Dual-View Mamba.
 
 ## Note 
 The repository is currently being organized and will be gradually refined after the paper is submitted.
