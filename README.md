@@ -11,7 +11,7 @@ For data privacy reasons, we are not permitted to release the original Chengdu a
 As an alternative, we process Chengdu dataset provided by [JGRM](https://github.com/mamazi0131/JGRM/) for testing, which contains about 200k processed trajectories along with the associated metadata. 
 Experiments on this substitute dataset yield results consistent with those obtained on our internally processed data.
 
-Here is the [google drive link for chengdu](https://drive.google.com/file/d/13I0mGrrD6_dA3-Y9d7Ol00ROdQVfTQKW/view?usp=sharing).
+Here is the [google drive link for chengdu](https://drive.google.com/file/d/1JzOO4dvxHLo5VyHgj0ICZG4Akzd_366B/view?usp=sharing).
 
 ## Requirements
 ```bash
